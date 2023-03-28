@@ -5,6 +5,6 @@ plus all the matches in the **Enrolments** table.
 ```
 SELECT *
 FROM Enrolments
-[insert clause here]
+RIGHT JOIN Students
 ON Enrolments.StudentID=Students.StudentID;
 ```

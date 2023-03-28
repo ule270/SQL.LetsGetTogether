@@ -5,5 +5,5 @@ using the **StudentID** field in both tables as the relationship between the two
 SELECT *
 FROM Enrolments
 LEFT JOIN Students
-[insert clause here];
+ON StudentID;
 ```
